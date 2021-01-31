@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aboutus">
+
+    <TextView
+        android:id="@+id/txtWhoareweAboutus"
+        android:layout_width="382dp"
+        android:layout_height="434dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="14dp"
+        android:text="At Nulla (latin for zero as in zero waste), our mission is to reduce waste around the world by spreading awareness about the pressing environmental issues of our time. Through our app, we believe that users will be inspired to change their habits for the better and for our environment. Our app encourages users to take pictures of the waste they are about to recycle and awards them points based on the amount of photos they upload. We also introduce a competitive nature in our app with a leaderboard that displays the users with the highest
+number of points."
+        android:textSize="20dp" />
+
+</RelativeLayout>

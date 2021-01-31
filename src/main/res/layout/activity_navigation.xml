@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/navigation"
+    tools:context=".Navigation">
+
+    <Button
+        android:id="@+id/btnLeaderboardNav"
+        android:layout_width="234dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="90dp"
+        android:background="#377541"
+        android:text="LEADERBOARD"
+        app:backgroundTint="#35694A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRulesNav"
+        android:layout_width="235dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="8dp"
+        android:text="RULES"
+        app:backgroundTint="#35694A"
+        app:layout_constraintEnd_toEndOf="@+id/btnLeaderboardNav"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnLeaderboardNav"
+        app:layout_constraintTop_toBottomOf="@+id/btnLeaderboardNav" />
+
+    <Button
+        android:id="@+id/btnRewardsNav"
+        android:layout_width="235dp"
+        android:layout_height="61dp"
+        android:text="REWARDS"
+        app:backgroundTint="#35694A"
+        app:layout_constraintEnd_toEndOf="@+id/btnRulesNav"
+        app:layout_constraintStart_toStartOf="@+id/btnRulesNav"
+        app:layout_constraintTop_toBottomOf="@+id/btnRulesNav" />
+
+    <Button
+        android:id="@+id/btnAboutusNav"
+        android:layout_width="235dp"
+        android:layout_height="61dp"
+        android:text="ABOUT US"
+        app:backgroundTint="#35694A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnRewardsNav"
+        app:layout_constraintTop_toBottomOf="@+id/btnRewardsNav" />
+
+    <Button
+        android:id="@+id/btnLogoutNav"
+        android:layout_width="184dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:text="LOGOUT"
+        app:backgroundTint="#35694A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnUploadimageNav"
+        android:layout_width="196dp"
+        android:layout_height="319dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginBottom="75dp"
+        android:text="Upload Image"
+        app:backgroundTint="#5FC1B9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

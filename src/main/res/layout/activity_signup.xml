@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signuppage"
+    tools:context=".signup">
+
+    <Button
+        android:id="@+id/btnSignupSignup"
+        android:layout_width="245dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="205dp"
+        android:onClick="onClick"
+        android:text="SIGN UP"
+        app:backgroundTint="#35694A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtUsernameSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USERNAME"
+        app:layout_constraintBottom_toTopOf="@+id/edtTxtUsernameSignup"
+        app:layout_constraintStart_toStartOf="@+id/txtEmailSignup" />
+
+    <TextView
+        android:id="@+id/txtEmailSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:text="EMAIL"
+        app:layout_constraintBottom_toTopOf="@+id/edtTxtEmailSignup"
+        app:layout_constraintStart_toStartOf="@+id/txtPasswordSignup" />
+
+    <TextView
+        android:id="@+id/txtPasswordSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text="PASSWORD"
+        app:layout_constraintBottom_toTopOf="@+id/edtTxtPasswordSignup"
+        app:layout_constraintStart_toStartOf="@+id/txtConfirmpasswordSignup" />
+
+    <TextView
+        android:id="@+id/txtConfirmpasswordSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONFIRM PASSWORD"
+        app:layout_constraintBottom_toTopOf="@+id/edtTxtConfirmpasswordSignup"
+        app:layout_constraintStart_toStartOf="@+id/btnSignupSignup" />
+
+    <EditText
+        android:id="@+id/edtTxtUsernameSignup"
+        android:layout_width="244dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="#C4C4C4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintBottom_toTopOf="@+id/edtTxtEmailSignup"
+        app:layout_constraintStart_toStartOf="@+id/edtTxtEmailSignup" />
+
+    <EditText
+        android:id="@+id/edtTxtEmailSignup"
+        android:layout_width="244dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="#C4C4C4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintBottom_toTopOf="@+id/edtTxtPasswordSignup"
+        app:layout_constraintStart_toStartOf="@+id/edtTxtPasswordSignup" />
+
+    <EditText
+        android:id="@+id/edtTxtPasswordSignup"
+        android:layout_width="244dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="#C4C4C4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintBottom_toTopOf="@+id/edtTxtConfirmpasswordSignup"
+        app:layout_constraintStart_toStartOf="@+id/edtTxtConfirmpasswordSignup" />
+
+    <EditText
+        android:id="@+id/edtTxtConfirmpasswordSignup"
+        android:layout_width="244dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="#C4C4C4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintBottom_toTopOf="@+id/btnSignupSignup"
+        app:layout_constraintStart_toStartOf="@+id/btnSignupSignup" />
+
+</android.support.constraint.ConstraintLayout>

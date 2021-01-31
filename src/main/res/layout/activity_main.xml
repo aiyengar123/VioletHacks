@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepage"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtTxtUsernameHome"
+        android:layout_width="247dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="360dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtTxtPasswordHome"
+        android:layout_width="247dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/edtTxtUsernameHome"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edtTxtUsernameHome"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtUsernameHome" />
+
+    <TextView
+        android:id="@+id/txtUsernameHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USERNAME"
+        app:layout_constraintBottom_toTopOf="@+id/edtTxtUsernameHome"
+        app:layout_constraintStart_toStartOf="@+id/edtTxtUsernameHome" />
+
+    <TextView
+        android:id="@+id/txtPasswordHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        app:layout_constraintBottom_toTopOf="@+id/edtTxtPasswordHome"
+        app:layout_constraintStart_toStartOf="@+id/edtTxtPasswordHome" />
+
+    <Button
+        android:id="@+id/btnLoginHome"
+        android:layout_width="247dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:onClick="onClick"
+        android:text="SIGN UP"
+        android:textColor="@android:color/white"
+        app:backgroundTint="#35694A"
+        app:layout_constraintEnd_toEndOf="@+id/edtTxtPasswordHome"
+        app:layout_constraintStart_toStartOf="@+id/edtTxtPasswordHome"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtPasswordHome" />
+
+    <Button
+        android:id="@+id/btnSignupHome"
+        android:layout_width="247dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:text="LOGIN"
+        android:textColor="@android:color/white"
+        app:backgroundTint="#35694A"
+        app:layout_constraintEnd_toEndOf="@+id/edtTxtPasswordHome"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edtTxtPasswordHome"
+        app:layout_constraintTop_toBottomOf="@+id/btnLoginHome" />
+
+    <Button
+        android:id="@+id/btnAboutusHome"
+        android:layout_width="247dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:text="ABOUT US"
+        android:textColor="@android:color/white"
+        app:backgroundTint="#35694A"
+        app:layout_constraintEnd_toEndOf="@+id/edtTxtPasswordHome"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edtTxtPasswordHome"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignupHome" />
+
+
+</android.support.constraint.ConstraintLayout>

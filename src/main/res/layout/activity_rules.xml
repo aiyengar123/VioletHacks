@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rules"
+    tools:context=".rules">
+
+    <TextView
+        android:id="@+id/txtRulesRules"
+        android:layout_width="336dp"
+        android:layout_height="323dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="casual"
+        android:text="Rules: As our app is designed to encourage recycling, we award 10 points per verified photo uploaded to our app. What should you take a picture of? Its simple: take a picture of what you are about to recycle. This includes paper, cardboard, glass, plastic, and
+cans. When taking a photo, make sure to be in a well-lit area to capture all of the items. The pictures should only include the recyclable items, so there's no need to include yourself in the photo. At the end of each month, prizes will be awarded to the users with the most amount
+of points, and the points for all users will be reset. To check what prizes are available, check out the Rewards page on our app.
+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="208dp"
+        android:layout_height="194dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="63dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/recyclingtest" />
+
+
+</android.support.constraint.ConstraintLayout>
